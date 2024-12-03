@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ObraContemporanea
+comment1.params=nome\ genero\ dataCriacao\ preco\ seculo
+comment1.target=ObraContemporanea(java.lang.String,\ java.lang.String,\ java.time.LocalDate,\ double,\ int)
+comment2.params=
+comment2.target=int\ getSeculo()
+comment3.params=seculo
+comment3.target=int\ verificaSeculo(int)
+comment4.params=seculo
+comment4.target=void\ setSeculo(int)
+comment5.params=valorizacao
+comment5.target=double\ getValorActual(double)
+numComments=6

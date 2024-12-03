@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ObraClassica
+comment1.params=nome\ genero\ dataCriacao\ preco\ epoca
+comment1.target=ObraClassica(java.lang.String,\ java.lang.String,\ java.time.LocalDate,\ double,\ java.lang.String)
+comment2.params=epoca
+comment2.target=java.lang.String\ verificaEpoca(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getEpoca()
+comment4.params=epoca
+comment4.target=void\ setEpoca(java.lang.String)
+comment5.params=valorizacao
+comment5.target=double\ getValorActual(double)
+numComments=6
