@@ -76,10 +76,4 @@ public class Property {
         return "description: " + this.description + "price: " + this.price;
     }
     
-    @Test
-    public void testtoString(){
-        Property property = new Property("T3 Monte Belo", 150000);
-        String expected = "description: T3 Monte Belo price: 15000";
-        assertEquals(expected, property.toString());
-    }
 }

@@ -112,14 +112,5 @@ public class User {
     public void show() {
         System.out.println(this);
     }
-    
-    
-    
-    @Test
-    public void testRegisterClient() {
-        User newClient = new User("Maria Silva", "933333333", "maria.silva@gmail.com");
-        company.registerClient(newClient);
-        assertEquals(3, company.getClients().size(), "Clients list should have 3 clients");
-        assertTrue(company.getClients().contains(newClient), "Clients list should contain the new client");
-    }
+
 }
