@@ -1,0 +1,125 @@
+
+
+/**
+ * User can either be a client or a seller.
+ *
+ * @author POO
+ * @version 03/2024
+ */
+public class User {
+
+    private static int numberOfUsers = 0;
+    // The user id.
+    private final int id;
+    // The user name.
+    private String name;
+    // The user phone.
+    private String phone;
+    // The user email.
+    private String email;
+
+    /**
+     * Constructor of class User.
+     *
+     * @param name The user name.
+     * @param phone The user phone.
+     * @param email The user email.
+     */
+    public User(String name, String phone, String email) {
+        this.id = ++numberOfUsers;
+        this.name = (name != null) ? name : "";
+        this.phone = (phone != null) ? phone : "";
+        this.email = (email != null) ? email : "";
+    }
+
+    /**
+     * Get the id.
+     *
+     * @return This user id.
+     */
+    public int getId() {
+        return this.id;
+    }
+
+    /**
+     * Get the name.
+     *
+     * @return This user name.
+     */
+    public String getName() {
+        return this.name;
+    }
+
+    /**
+     * Set the name.
+     *
+     * @param name The new name. Must not be null.
+     */
+    public void setName(String name) {
+        if (name != null) {
+            this.name = name;
+        }
+    }
+
+    /**
+     * Get the phone.
+     *
+     * @return This user phone.
+     */
+    public String getPhone() {
+        return this.phone;
+    }
+
+    /**
+     * Set the phone.
+     *
+     * @param phone The new phone. Must not be null.
+     */
+    public void setPhone(String phone) {
+        if (phone != null) {
+            this.phone = phone;
+        }
+    }
+
+    /**
+     * Get the E-mail.
+     *
+     * @return This user E-mail.
+     */
+    public String getEmail() {
+        return this.email;
+    }
+
+    /**
+     * Set the E-mail.
+     *
+     * @param email The new E-mail. Must not be null.
+     */
+    public void setEmail(String email) {
+        if (email != null) {
+            this.email = email;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return this.name + "\t(" + this.phone + ")\t" + this.email;
+    }
+
+    /**
+     * Display this user.
+     */
+    public void show() {
+        System.out.println(this);
+    }
+    
+    
+    
+    @Test
+    public void testRegisterClient() {
+        User newClient = new User("Maria Silva", "933333333", "maria.silva@gmail.com");
+        company.registerClient(newClient);
+        assertEquals(3, company.getClients().size(), "Clients list should have 3 clients");
+        assertTrue(company.getClients().contains(newClient), "Clients list should contain the new client");
+    }
+}
