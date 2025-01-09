@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=ITelephone
+comment1.params=myNumber
+comment1.target=void\ setMyNumber(java.lang.String)
+comment10.params=number
+comment10.target=boolean\ answerCall(java.lang.String)
+comment11.params=
+comment11.target=void\ endCall()
+comment12.params=number
+comment12.target=boolean\ call(java.lang.String)
+comment2.params=isBusy
+comment2.target=void\ setIsBusy(boolean)
+comment3.params=onCall
+comment3.target=void\ setOnCall(boolean)
+comment4.params=
+comment4.target=java.lang.String\ getMyNumber()
+comment5.params=
+comment5.target=boolean\ isIsBusy()
+comment6.params=
+comment6.target=boolean\ isOnCall()
+comment7.params=
+comment7.target=java.lang.String\ setNumber()
+comment8.params=number
+comment8.target=void\ dial(java.lang.String)
+comment9.params=
+comment9.target=void\ ringging()
+numComments=13

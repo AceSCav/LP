@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SmartPhone
+comment1.params=myNumber\ maxSimultaneousApps
+comment1.target=SmartPhone(java.lang.String,\ int)
+comment2.params=appName
+comment2.target=void\ openApp(java.lang.String)
+comment3.params=appName
+comment3.target=void\ closeApp(java.lang.String)
+comment4.params=
+comment4.target=void\ showPhoneApps()
+comment5.params=appName
+comment5.target=void\ installApp(java.lang.String)
+comment6.params=appName
+comment6.target=void\ uninstallApp(java.lang.String)
+comment7.params=number
+comment7.target=void\ dial(java.lang.String)
+comment8.params=number
+comment8.target=boolean\ answerCall(java.lang.String)
+numComments=9
